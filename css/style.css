@@ -1,7 +1,23 @@
+/*
+color sheme:  
+
+primary       #03bbc5 (logo)
+contrasting-1 #002b2e (job)
+contrasting-2 #646464 (links)
+analgous      #008cb0 (my name and app names)
+muted gray    #999 (featured)
+
+*/
+
 body {
 	font-family: 'Lato', sans-serif;
-	color: #747784;
+/*	color: #747784;*/
+/*	color: #03bbc5;*/
 	font-weight: 300;
+}
+
+h1, a {
+	color: #747784;
 }
 
 hr {
@@ -17,10 +33,29 @@ hr {
 	font-size: 50px;
 }
 
-.text-muted {
-	color: #bcbbbb;
-}
-
 .text-thin {
 	font-weight: 100;
+} 
+
+.primary-color {
+	color: #03bbc5;
 }
+
+.contrasting-1-color {
+	color: #002b2e;
+}
+
+.contrasting-2-color {
+	color: #646464;
+}
+
+.analgous-color {
+	color: #008cb0;
+}
+
+.muted-color {
+	color: #999;
+}
+
+
+
